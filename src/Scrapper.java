@@ -13,7 +13,7 @@ import java.util.Arrays;
 import java.util.List;
 import java.util.Locale;
 
-public class ImportWebDatas {
+public class Scrapper {
     public static final List<String> gender_list =  Arrays.asList("Adventure", "Comedy", "Drama", "Action", "Thriller-or-Suspense","Romantic-Comedy");
     public static String url = "https://www.the-numbers.com/market/%s/genre/%s";
 
