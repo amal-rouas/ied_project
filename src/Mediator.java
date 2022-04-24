@@ -8,9 +8,9 @@ public class Mediator {
         RestClient restClient = new RestClient();
         JdbcClient jdbcClient = new JdbcClient();
         SparqlClient sparqlClient = new SparqlClient();
-        //System.out.println(jdbcClient.getFilmsByTitle("Manito"));
-        //System.out.println(restClient.getDescriptionByTitle("Manito"));
-        //System.out.println(sparqlClient.getDescriptionByTitle("Manito"));
-        System.out.println(sparqlClient.getDescriptionByActor("Fulanito"));
+        //System.out.println(jdbcClient.getFilmsByTitle("Pirates of the Caribbean"));
+        //System.out.println(restClient.getDescriptionByTitle("Pirates of the Caribbean"));
+        //System.out.println(sparqlClient.getDescriptionByTitle("Pirates of the Caribbean"));
+        System.out.println(sparqlClient.getDescriptionByActor("Kevin McNally"));
     }
 }
